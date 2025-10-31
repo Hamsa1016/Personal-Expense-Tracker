@@ -1,0 +1,63 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.expense-form input,
+.expense-form select,
+.expense-form button {
+  margin: 5px 5px 10px 0;
+  padding: 8px;
+}
+
+.expense-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.expense-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expense-item button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.expense-summary h2 {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+/* body {
+  background-image: url('/image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+} */
+
+/* Optional: Make form area more readable with a light background */
+.container {
+  background: rgba(255, 255, 255, 0.94); /* slight white overlay */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 30px;
+}
+body {
+  background-image: url('/public/image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
